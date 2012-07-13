@@ -49,7 +49,7 @@ namespace Eplan.EplAddin.PlaceHolderCableReassign.API
             if (PHs.Count() == 0)
                 return;
 
-            CableService CblService = new CableService();
+            CableService CblService = new CableService(); 
 
             try
             {
